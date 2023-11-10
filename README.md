@@ -1,6 +1,6 @@
 # SCAV VIDEO LAB 3
 ## USE IN TERMINAL THE FOLLOWING COMMAND-LINE ARGUMENTS TO USE THE DIFFERENT IMPLEMENTED METHODS:
-### FOR THIS LAB I'VE USED: bbb9s.mp4 segment and bbb60s.mp4 videos.
+### FOR THIS LAB I'VE USED: bbb9s.mp4 segment and bbb60s.mp4 videos which can be found into the _InputVideos_ folder in this repository. I know code should speak for us and I videos doesn't need to be uploaded into the repo but this way I can run the script/check the outputs on multiple devices.
 ### EXERCISE 1: Visualize Macroblocks Motion Vectors:
 
 ```ruby
