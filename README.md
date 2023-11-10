@@ -1,6 +1,6 @@
 # SCAV VIDEO LAB 3
 ## USE IN TERMINAL THE FOLLOWING COMMAND-LINE ARGUMENTS TO USE THE DIFFERENT IMPLEMENTED METHODS:
-# FOR THIS LAB I'VE USED A bbb9s.mp4 segment, and a bbb60s.mp4
+### FOR THIS LAB I'VE USED A bbb9s.mp4 segment, and a bbb60s.mp4
 ### EXERCISE 1: Visualize Macroblocks Motion Vectors:
 
 ```ruby
@@ -48,7 +48,7 @@ python3 scav_video_lab_3.py --extract_yuv_histogram final_output_with_subtitles.
 ```
 
 ### EXERCISE 7 [EXTRA]:
-_To end this practice, I thought it might be cool to create a container into a single method with all the different exports that we have been doing on the previous exercises, meaning a container which will contain, the original video "h264", the original audio video track, the mono mp3 track, the stereo mp3 track with lower bitrate, the aac audio track, the yuv histogram and the subtitles, all packages into a single .mp4 using FFMPEG__
+_To end this practice, I thought it might be cool to create a container into a single method with all the different exports that we have been doing on the previous exercises, meaning a container which will contain, the original video "h264", the original audio video track, the mono mp3 track, the stereo mp3 track with lower bitrate, the aac audio track, the yuv histogram and the subtitles, all packages into a single .mp4 using FFMPEG_
 ```ruby
 python3 scav_video_lab_3.py --create_custom_bbb_full bbb_cut_50s.mp4
 ```
