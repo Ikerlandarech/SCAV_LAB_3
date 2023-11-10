@@ -48,11 +48,12 @@ python3 scav_video_lab_3.py --extract_yuv_histogram final_output_with_subtitles.
 ```
 
 ### EXERCISE 7 [EXTRA]:
-_To end this practice, I thought it might be cool to create a container into a single method with all the different exports that we have been doing on the previous exercises, meaning a container which will contain, the original video "h264", the original audio video track, the mono mp3 track, the stereo mp3 track with lower bitrate, the aac audio track, the yuv histogram and the subtitles, all packages into a single .mp4 using FFMPEG_
+_To end this practice, I thought it might be cool to create a container into a single method with all the different exports that we have been doing on the previous exercises, meaning a container which will contain, the original video "h264", the original audio video track, the mono mp3 track, the stereo mp3 track with lower bitrate, the aac audio track, the yuv histogram and the subtitles, all packaged into a single .mp4 using FFMPEG_
 ```ruby
 python3 scav_video_lab_3.py --create_custom_bbb_full bbb_cut_50s.mp4
 ```
 Notice that for this exercise in the script we are not creating again all the files, cutting the video and exporting the audios, meaning that we need to pass as argument the video cut into 50s segment already so everything has the same number of frames/samples.
+Finally we can count the tracks by using:
 
 ```ruby
 python3 scav_video_lab_3.py --count_tracks_in_mp4 final_output_full.mp4
