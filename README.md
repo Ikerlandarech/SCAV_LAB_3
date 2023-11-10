@@ -1,6 +1,6 @@
 # SCAV VIDEO LAB 3
 ## USE IN TERMINAL THE FOLLOWING COMMAND-LINE ARGUMENTS TO USE THE DIFFERENT IMPLEMENTED METHODS:
-### FOR THIS LAB I'VE USED A bbb9s.mp4 segment, and a bbb60s.mp4
+### FOR THIS LAB I'VE USED: bbb9s.mp4 segment and bbb60s.mp4 videos.
 ### EXERCISE 1: Visualize Macroblocks Motion Vectors:
 
 ```ruby
@@ -8,7 +8,7 @@ python3 scav_video_lab_3.py --visualize_macroblocks_motion_vectors bbb9s.mp4 bbb
 ```
 
 ### EXERCISE 2: Create Custom BBB Video Container:
-In this exercise we will package into a single mp4 5 tracks.
+In this exercise we will package into a single mp4 with a total of 5 tracks.
 ```ruby
 python3 scav_video_lab_3.py --create_custom_bbb bbb60s.mp4
 ```
