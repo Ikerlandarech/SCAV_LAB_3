@@ -8,7 +8,7 @@ python3 scav_video_lab_3.py --visualize_macroblocks_motion_vectors bbb9s.mp4 bbb
 ```
 
 ### EXERCISE 2: Create Custom BBB Video Container:
-In this exercise we will package into a single mp4 with a total of 5 tracks.
+In this exercise we will package all the exported tracks into a single mp4 with a total of 5 tracks.
 ```ruby
 python3 scav_video_lab_3.py --create_custom_bbb bbb60s.mp4
 ```
